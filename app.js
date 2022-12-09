@@ -4,7 +4,7 @@ const app = express();
 const mongoose = require('mongoose');
 const exphbs = require('express-handlebars');
 
-mongoose.connect('mongodb+srv://pradeepbiswas41813:pradeep@cluster0.gxbmok2.mongodb.net/test')
+mongoose.connect('mongodb+srv://pradeepbiswas41813:pradeep@cluster0.gxbmok2.mongodb.net/pradeep')
     .then(res => console.log('Database is connected...'))
     .catch(err => console.log(err));
 
